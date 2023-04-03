@@ -27,6 +27,10 @@ p{
     padding-top: 30px;
 }
 
+
+
+/* basic info, one page */
+
 .basic-info p{
     padding-top: 43px;
 }
@@ -57,6 +61,9 @@ p{
     display: flex;
 }
 
+
+
+/* two page */
 h4{
     color: aliceblue;
 }
@@ -80,6 +87,9 @@ h4{
     margin-top: 27px;
 }
 
+
+
+/* three page */
 .game-features{
     padding-top: 82px;
 }
@@ -137,6 +147,12 @@ h4{
 }
 
 
+
+/* four page */
+.game-buttons{
+    padding-top: 86px;
+}
+
 .adjust-bet-size,
 .autoplay,
 .stop-autoplay{
@@ -163,6 +179,7 @@ h4{
 .adjust-bet-size-text h4 {
     margin-top: -10px;
     margin-left: 10px;
+    color: #b3c7ff;
 }
 
 .adjust-bet-size p{
@@ -189,6 +206,7 @@ h4{
 .place-bet-button-text h4 {
     margin-top: -10px;
     margin-left: 10px;
+    color: #b3c7ff;
 }
 
 .place-bet-button{
@@ -217,6 +235,22 @@ h4{
     margin-top: -50px;
 }
 
+.autoplay-img{
+    display: flex;
+}
+
+.autoplay-text{
+    display: flex;
+    padding-right: 475px;
+    padding-top: 90px;
+}
+
+.autoplay-text h4{
+    margin-top: -10px;
+    margin-left: 10px;
+    color: #b3c7ff;
+}
+
 .autoplay{
     background-image: url(./Off.png);
     padding-left: 100px;
@@ -225,6 +259,22 @@ h4{
 
 .autoplay p{
     color: aliceblue;
+}
+
+.stop-autoplay-img{
+    display: flex;
+}
+
+.stop-autoplay-text{
+    display: flex;
+    padding-right: 432px;
+    padding-top: 90px;
+}
+
+.stop-autoplay-text h4{
+    margin-top: -10px;
+    margin-left: 10px;
+    color: #b3c7ff;
 }
 
 .stop-autoplay{
