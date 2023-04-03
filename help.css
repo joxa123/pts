@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.help{
+    border: 1px solid black;
+    width: 1010px;
+    height: 740px;
+    background-color: #19222a;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+h3{
+    color: #537fff;
+}
+
+p{
+    color: #b3c7ff;
+}
+
+.help{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.basic-info p{
+    padding-top: 43px;
+}
+
+.how-to-place-bet{
+    padding-top: 86px;
+}
+
+.how-to-place-bet p{
+    padding-top: 43px;
+}
+
+.fearst-line-bet {
+    display: flex;
+    padding-top: 86px;
+}
+
+.second-line-bet{
+    display: flex;
+    padding-top: 33px;
+}
+
+.text{
+    padding-top: 43px;
+}
+
+.bet-help{
+    display: flex;
+}
+
