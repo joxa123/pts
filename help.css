@@ -10,6 +10,8 @@
     background-color: #19222a;
     overflow: auto;
     white-space: nowrap;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 h3{
@@ -54,4 +56,215 @@ p{
 .bet-help{
     display: flex;
 }
+
+h4{
+    color: aliceblue;
+}
+
+.x-border{
+    display: flex;
+    align-items: center;
+    padding-top: 59PX;
+}
+
+.bet-border{
+    border: 2px solid red;
+    width: 404px;
+    height: 209px;
+    background-image: url(./Bg.png);
+    background-position: center;
+    border: none;
+    text-align: center;
+    font-size: 28PX;
+    padding-top: 55PX;
+    margin-top: 27px;
+}
+
+.game-features{
+    padding-top: 82px;
+}
+
+.build-house-one,
+.build-house-two{
+    display: flex;
+}
+
+.build-house-one{
+    padding-top: 86px;
+}
+
+.city-house h4,
+.neon-house h4,
+.green-house h4,
+.elite-house h4,
+.suburbs-house h4 {
+    padding-left: 47px;
+}
+
+.city-house p,
+.neon-house p,
+.green-house p,
+.elite-house p,
+.suburbs-house p{
+    padding-left: 47px;
+}
+
+.city-house,
+.neon-house,
+.green-house,
+.elite-house,
+.suburbs-house {
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.suburbs-house,
+.city-house {
+    margin: 0;
+}
+
+.green-house{
+    padding-right:700px;
+}
+
+.elite-house{
+    padding-left: 10px;
+}
+
+.neon-house{
+    padding-left: 50px;
+}
+
+
+.adjust-bet-size,
+.autoplay,
+.stop-autoplay{
+    border: 2px solid red;
+    width: 345px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+
+.adjust-bet-size-img{
+    display: flex;
+}
+
+.adjust-bet-size-text{
+    display: flex;
+    padding-right: 440px;
+    padding-top: 90px;
+}
+
+.adjust-bet-size-text h4 {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.adjust-bet-size p{
+    text-align: center;
+    font-size: 28px;
+    color: aliceblue;
+    padding-top: 25px;
+}
+
+.adjust-bet-size{
+    background-image: url(./+.png);
+}
+
+.place-bet-button-img{
+    display: flex;
+}
+
+.place-bet-button-text{
+    display: flex;
+    padding-right: 415px;
+    padding-top: 130px;
+}
+
+.place-bet-button-text h4 {
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.place-bet-button{
+    height: 190px;
+    background-image: url(./Layer\ 2\ copy\ 3.png);
+    border: 2px solid red;
+    width: 345px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+
+.fearst-p p{
+    padding-left: 120px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.second-p p{
+    padding-left: 70px;
+    font-size: 30px;
+    color: black;
+    margin-top: -50px;
+}
+
+.autoplay{
+    background-image: url(./Off.png);
+    padding-left: 100px;
+    padding-top: 35px;
+}
+
+.autoplay p{
+    color: aliceblue;
+}
+
+.stop-autoplay{
+    background-image: url(./autoplay.png);
+    display: flex;
+}
+
+.stop-button{
+    border: 2px solid red;
+    width: 160px;
+    height: 60px;
+    background-image: url(./red\ stop\ button.png);
+    margin-top: 18px;
+    border: none;
+}
+
+.stop-button h4 {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.stop-autoplay img {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.stop-autoplay p{
+    padding-top: 35px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
 
